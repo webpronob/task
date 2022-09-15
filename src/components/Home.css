@@ -1,0 +1,154 @@
+.dropdown{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#standard-select{
+    padding: 10px;
+    width: 135px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.button2 {font-size: 12px;}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 17px;
+    padding: 7px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
+.searchbar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.search-bar{
+    padding-top: 6px;
+    padding-bottom: 7px;
+    margin-left: 11px;
+    margin-right: 5px;
+}
+
+.check-out {
+    width: 306px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 9px;
+    margin-top: 36px;
+    border-radius: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: 600;
+}
+
+.stock-name{
+    color: blue;
+    font-weight: 500;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2fr,1fr);
+    
+}
+.cart-container{
+    width: 22rem;
+    border: 1px solid red;
+}
+.grid1{
+    --bs-gutter-x: 0;
+     --bs-gutter-y: 0; 
+}
+.btn-shop{
+    background: black;
+    border: none;
+    padding-left:14px;
+    padding-right:14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.buy-section{
+    display: flex;gap: 2px;
+}
+.icon{
+    color: white;
+}
+.form-control {
+    background-color: #F6F5FA;
+    border: none;
+    width: 65px;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+ 
+
+  /** page structure **/
+#wrapper {
+    display: block;
+    width: 850px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px 17px;
+  }
+  
+  #keywords {
+    margin: 0 auto;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  
+  #keywords thead {
+    cursor: pointer;
+    background: #c9dff0;
+  }
+  #keywords thead tr th { 
+    font-weight: bold;
+    padding: 12px 30px;
+    padding-left: 42px;
+  }
+  #keywords thead tr th span { 
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  
+  #keywords thead tr th.headerSortUp, #keywords thead tr th.headerSortDown {
+    background: #acc8dd;
+  }
+  
+  #keywords thead tr th.headerSortUp span {
+    background-image: url('https://i.imgur.com/SP99ZPJ.png');
+  }
+  #keywords thead tr th.headerSortDown span {
+    background-image: url('https://i.imgur.com/RkA9MBo.png');
+  }
+  
+  
+  #keywords tbody tr { 
+    color: #555;
+  }
+  #keywords tbody tr td {
+    text-align: center;
+    padding: 15px 10px;
+  }
+  #keywords tbody tr td.lalign {
+    text-align: left;
+  }
